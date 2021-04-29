@@ -21,53 +21,86 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 9999;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 30px;
     color: white;
     margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  header a {
+    /* text-shadow: 0 0 5px rgba(0, 0, 0, .5); */
+}
+
+header a {
     text-decoration: none;
-    color: var(--primary-color);
-  }
-  
-  header nav {
+    color: white;
+}
+
+header nav{
     margin: 7px 0;
-  }
-  
-  /* header nav ul li {
-    display: inline;
-  } */
-  
-  header nav ul {
+}
+
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-  }
-  
-  header nav ul li a {
+}
+
+header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  header nav ul li a:hover {
-    background: #fce138;
-    color: #024e76;
+    /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+header nav ul li a:hover {
+    background: white;
+    color: black;
     border-radius: 15px;
     text-shadow: none;
+}
+
+footer {
+    background: white;
+    width: 100%;
+    padding: 40px 35px; 
+    text-align: center;
+}
+
+.flex-row {
+    display: flex;
   }
 
+.thumbnail {
+    padding: 10px;
+    transition: transform .2s;
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
 /* .hero {
     background-image: url("../images/Coding\ 1.jpeg");
     background-size: cover;
     background-position: center;
 } */
+
+/* Smaller desktop screens  */
+@media screen and (max-width: 980px) {
+   
+  }
+
+/* Tablets and smaller*/
+@media screen and (max-width: 768px) {
+    
+  }
+  
+  /* Mobile phones*/
+@media screen and (max-width: 575px) {
+   
+  }
