@@ -10,6 +10,7 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -68,6 +69,53 @@ footer {
     padding: 40px 35px; 
     text-align: center;
 }
+
+.about-me {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-section-title {
+    font-size: 48px;
+    color: white;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+
+}
+
+.about-section{
+    margin: 20px;
+    background: white;
+    color: black;
+    flex: 1;
+}
+
+.about-section img {
+    max-height: 400px;
+    max-width: 350px;
+    
+}
+
+.about {
+
+}
+
+.brand-statement {
+
+}
+
+
+
+
+
+
+
 
 .flex-row {
     display: flex;
