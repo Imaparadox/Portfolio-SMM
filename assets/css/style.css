@@ -80,12 +80,13 @@ footer {
     width: 100%;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: column;
     justify-content: space-around;
 }
 
 .about-section-title, 
-.work-section-title {
+.work-section-title,
+.contact-me-title {
     font-size: 45px;
     color: white;
     border-right: 6px solid;
@@ -93,9 +94,6 @@ footer {
     text-align: center;
     margin: 15px auto 25px auto;
     width: 100%;
-    position: relative;
-
-
 }
 
 .about-section{
@@ -113,7 +111,7 @@ footer {
 
 .about {
     padding: 25px;
-    line-height: 1.3;
+    /* line-height: 1.3; */
 }
 
 .about p {
@@ -129,7 +127,7 @@ footer {
     width: 100%;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row;
     justify-content: space-around;
 }
 
@@ -144,7 +142,16 @@ footer {
 } */
 
 .work-section {
-flex-flow: column wrap;
+    /* display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1; 
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px; */
 }
 
 .projectheader {
@@ -153,11 +160,52 @@ flex-flow: column wrap;
     background: #39a6b2;
     position: relative;
 }
+.contact-me {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+}
+/* .contact-me-title{
+    color: white;
+    font-size: 45px;
+} */
 
+.contact-me-info {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+.contact-me-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-me-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-me-info ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+.contact-me-info ul li a:hover {
+    background: white;
+    color: black;
+    border-radius: 15px;
+    text-shadow: none;
+}
 
 .flex-row {
     display: flex;
-  }
+}
 
 .thumbnail {
     padding: 10px;
@@ -188,7 +236,9 @@ flex-flow: column wrap;
   
   /* Mobile phones*/
 @media screen and (max-width: 575px) {
-   
+   header {
+       
+   }
   }
 
   /* .box{
