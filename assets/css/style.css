@@ -87,32 +87,24 @@ footer {
     margin: 0 auto;
     display: flex;
     flex-wrap: column;
-    justify-content: space-around;
-}
-
-.section-title {
-    font-size: 30px;
-    color: black;
-    border-right: 6px solid;
-    padding-left: 20px;
-    text-align: center;
-    margin: 15px auto 25px auto;
-    width: 100%;
+    justify-content: space-between;
 }
 
 .about-section{
-    margin: 20px;
-    background: white;
+    width: 70%;
     color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
 }
 
 .about-section img {
     max-height: 400px;
     max-width: 350px;
-    width: 50%;
+    width: 30%;
 }
 
 .about {
@@ -219,6 +211,16 @@ footer {
     flex-wrap: wrap;
     justify-content: end;
     width: 25%;
+}
+
+.section-title {
+    font-size: 30px;
+    color: black;
+    border-right: 6px solid;
+    /* padding-left: 20px; */
+    text-align: center;
+    margin: 15px auto 25px auto;
+    width: 100%;
 }
 
 /* Smaller desktop screens  */
