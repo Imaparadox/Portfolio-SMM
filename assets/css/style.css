@@ -84,7 +84,7 @@ footer {
 }
 .about-me {
     width: 100%;
-    margin: 0 auto;
+    margin: 15px auto;
     display: flex;
     flex-wrap: column;
     justify-content: space-between;
@@ -98,15 +98,15 @@ footer {
     justify-content: space-evenly;
 }
 
+
 .about-section img {
     max-height: 400px;
     max-width: 350px;
-    width: 30%;
 }
 
 .about {
     width: 50%;
-    /* line-height: 1.3; */
+    /* line-height: 1.5; */
 }
 
 .about p {
@@ -120,7 +120,7 @@ footer {
 
 .work {
     width: 100%;
-    margin: 0 auto;
+    margin: 15px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -145,6 +145,7 @@ footer {
     text-align: center;
     background: #39a6b2;
     width: 400px;
+    height: 40px;
 }
 
 .thumbnail {
@@ -160,7 +161,7 @@ footer {
 
 .contact-me {
     width: 100%;
-    margin: 0 auto;
+    margin: 15px auto;
     display: flex;
     flex-wrap: row;
     justify-content: space-between;
@@ -208,6 +209,7 @@ footer {
     flex-wrap: wrap;
     justify-content: end;
     width: 25%;
+    /* margin-bottom: 20px; */
 }
 
 .section-title {
@@ -232,7 +234,5 @@ footer {
   
   /* Mobile phones*/
 @media screen and (max-width: 575px) {
-   header {
-       
-   }
+ 
   }
