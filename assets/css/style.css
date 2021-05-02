@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* line-height: 1.5px; */
 }
 
 html {
@@ -10,10 +9,6 @@ html {
 }
 
 body {
-    /* background-image: url("../images/Coding\ 1.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%; */
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow-x: hidden;
@@ -106,7 +101,6 @@ footer {
 
 .about {
     width: 50%;
-    /* line-height: 1.5; */
 }
 
 .about p {
@@ -170,7 +164,6 @@ footer {
 .contact-me-info {
     width: 70%;
     padding: 20px 35px;
-    /* background-color: #39a6b2; */
 }
 
 .contact-me-info a {
@@ -187,7 +180,6 @@ footer {
 }
 
 .contact-me-info li {
-    /* background-color: #39a6b2; */
     padding: 10px 15px;
 }
 
@@ -208,14 +200,12 @@ footer {
     flex-wrap: wrap;
     justify-content: end;
     width: 25%;
-    /* margin-bottom: 20px; */
 }
 
 .section-title {
     font-size: 30px;
     color: black;
     border-right: 6px solid;
-    /* padding-left: 20px; */
     text-align: center;
     margin: 15px auto 25px auto;
     width: 100%;
@@ -226,7 +216,6 @@ footer {
     header {
         padding-bottom: 0;
         justify-content: center;
-        /* position: relative */
       }
     
       header h1 {
@@ -247,11 +236,6 @@ footer {
     .contact-me-info ul li a {
         font-size: 20px;
     }
-    
-      /* footer h2, footer div {
-        text-align: center;
-        width: 100%;
-      } */
   }
 
 /* Tablets and smaller*/
