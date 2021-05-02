@@ -13,7 +13,7 @@ When the user loads their portfolio, they are presented with the developer's nam
 ![ScreenShot](assets/images/PortfolioSMM-full-page.png "ScreenShot")
 
 ## Notes
-Everything loaded correctly, and there are no indications of bugs from what I observed.
+Everything loaded correctly, and there are no indications of bugs from what I observed. Extremely difficult to add media queries smaller than my current max-width resolution of 575px.
 
 ## Acknowledgments for advice and assistance:
 Reuben Genkin
